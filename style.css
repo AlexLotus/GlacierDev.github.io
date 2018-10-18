@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    background-color: #1d1e22;
+}
+#congrats {
+    width: 1400px;
+    background-color: rgba(0,0,0,.8);
+    height: 700px;
+    position: absolute;
+    left: 50%;
+    margin-left: -700px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    display: none;
+    color: white;
+}
+#fail {
+    width: 1400px;
+    background-color: rgba(0,0,0,.8);
+    height: 700px;
+    position: absolute;
+    left: 50%;
+    margin-left: -700px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    display: none;
+    color: white;
+}
+#noCards {
+    width: 1400px;
+    background-color: pink;
+    height: 700px;
+    position: absolute;
+    left: 50%;
+    margin-left: -700px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    display: none;
+}
+#container {
+    display: flex;
+    margin: auto;
+    width: 1400px;
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,.2);
+}
+#card1 {
+    width: 700px;
+    height: 700px;
+    background-color: #1d1e22;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+#card2 {
+    width: 700px;
+    height: 700px;
+    background-color: #1d1e22;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+#circle {
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-left: -40px;
+    margin-top: 310;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1000;
+}
+.select {
+    color: greenyellow;
+    border: solid 2px white;
+    border-radius: 25px;
+    padding: 10px;
+    width: 100;
+    margin: 5 auto;
+    background-color: rgb(255,255,255,.2);
+}
+.select:hover {
+    background-color: rgb(255,255,255,.5);
+}
+.cname {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 5px;
+    text-shadow: none;
+}
+#amtSearches {
+    font-size: 50px;
+    font-weight: 1000;
+    padding: 5px;
+    color: greenyellow;
+    text-shadow: none;
+}
+#header {
+    margin: 50px auto;
+    width: 500px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+#headtxt {
+    font-size: 50px;
+    text-shadow: 0px 0px 5px white;
+}
+#star {
+    width: 100px;
+    margin: 10 auto;
+}
+#or {
+    font-size: 10px;
+    padding: 2px;
+}
+p {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+    text-shadow: 0px 0px 5px white;
+}
+
+@keyframes fadeInOut {
+ 0% { opacity:0; }
+ 50% { opacity:1; } 
+ 100% { opacity:1; } 
+}
