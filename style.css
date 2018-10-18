@@ -94,6 +94,30 @@ body {
 .select:hover {
     background-color: rgb(255,255,255,.5);
 }
+#nextF {
+    color: greenyellow;
+    border: solid 2px white;
+    border-radius: 25px;
+    padding: 10px;
+    width: 100;
+    margin: 5 auto;
+    background-color: rgb(255,255,255,.2);
+}
+#nextF:hover {
+    background-color: rgb(255,255,255,.5);
+}
+#nextC {
+    color: greenyellow;
+    border: solid 2px white;
+    border-radius: 25px;
+    padding: 10px;
+    width: 100;
+    margin: 5 auto;
+    background-color: rgb(255,255,255,.2);
+}
+#nextC:hover {
+    background-color: rgb(255,255,255,.5);
+}
 .cname {
     font-size: 25px;
     font-weight: 700;
